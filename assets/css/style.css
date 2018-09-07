@@ -15,6 +15,7 @@ body {
     background-repeat:repeat;
     text-align: justify;
     margin: 0;
+    line-height: 1.5em;
 }
 
 header {
@@ -38,7 +39,7 @@ header {
   margin-left: 5%;
   margin-top: 0;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   padding-right: 3px;
   padding-left: 4%;
   height: fit-content;
@@ -49,8 +50,9 @@ header {
 #nav-box {
   float: right;
   width: 35%;
+  margin-right: 5%;
+  margin-bottom: 0px;
   padding-right: 10%;
-  margin-right: 10%;
   padding-top: 2%;
 }
 
@@ -61,10 +63,16 @@ header {
   height: 100%;
 }
 
+
+
 .nav-link a {
   color: #567D8C;
   text-decoration: none;
-  font-size: 130%;
+  font-size: 120%;
+}
+
+.nav-link a:hover {
+  color: #164059;
 }
 
 .container {
@@ -79,6 +87,7 @@ header {
 h1 {
   width: 90%;
   margin: auto;
+  margin-bottom: 5px;
   color: #164059;
 }
 
@@ -106,6 +115,7 @@ hr {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 5px;
   float:left;
 }
 .portfolio-img {
@@ -113,8 +123,8 @@ hr {
   margin-bottom: 0;
 }
 
-/* Couldn't get the banners onto the images. For some reason when
-set to position absolute and given values for top/left/etc, they
+/* Couldn't get the banners onto the images.For some reason, when
+set to position: absolute and given values for top/left/etc, they
 all stack on top of one another. */
 
 .img-banner {
@@ -123,5 +133,19 @@ all stack on top of one another. */
   text-align: center;
   margin-top: 0;
   margin-bottom: 10%;
-  
+}
+
+label {
+  font-size: 135%;
+  margin-top: 20px;
+}
+
+input {
+  font-size: 125%;
+  height: 30px;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
 }
